@@ -1,0 +1,407 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Dishwashing Liquid",
+      "price": 149,
+      "oldPrice": 179,
+      "category": "Kitchen",
+      "rating": 4.5,
+      "stock": 25,
+      "description": "Powerful dishwashing liquid for removing grease and tough food stains.",
+      "image": "https://images.pexels.com/photos/28764304/pexels-photo-28764304.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "id": "2",
+      "name": "Laundry Detergent",
+      "price": 299,
+      "oldPrice": 349,
+      "category": "Laundry",
+      "rating": 4.6,
+      "stock": 30,
+      "description": "Fresh and effective detergent for clean and bright clothes.",
+      "image": "https://image.made-in-china.com/2f0j00jdotCDyIpJqK/Household-Cleaning-Products-Homemade-Liquid-Washing-Laundry-Detergent.jpg"
+    },
+  {
+  "id": "3",
+  "name": "Floor Cleaner",
+  "price": 199,
+  "oldPrice": 239,
+  "category": "Cleaning",
+  "rating": 4.4,
+  "stock": 20,
+  "description": "Deep cleaning floor liquid with a refreshing fragrance.",
+  "image":"https://rokbucket.rokomari.io/ProductNew20190903/260X372/Lizol_Floor_Cleaner_500ml_Jasmine_BD0850-Lizol-1e7e3-328494.jpg"
+},
+    {
+      "id": "4",
+      "name": "Toilet Cleaner",
+      "price": 129,
+      "oldPrice": 159,
+      "category": "Cleaning",
+      "rating": 4.3,
+      "stock": 35,
+      "description": "Powerful toilet cleaner that removes stains and germs.",
+      "image": "https://premium1.in/cdn/shop/products/toilet-cleaner-291024.jpg?v=1708314353&width=1100"
+    },
+    {
+      "id": "5",
+      "name": "Kitchen Cleaner",
+      "price": 179,
+      "oldPrice": 219,
+      "category": "Kitchen",
+      "rating": 4.5,
+      "stock": 18,
+      "description": "Kitchen surface cleaner for removing oil and grease.",
+      "image": "https://sssmartbd.com/storage/24-Oct-2025/images/1761305682-1761300886-961e7a55c33672aa1d353e01a39a4b42.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Cleaning Sponge",
+      "price": 79,
+      "oldPrice": 99,
+      "category": "Kitchen",
+      "rating": 4.2,
+      "stock": 50,
+      "description": "Durable cleaning sponge for dishes and kitchen surfaces.",
+      "image": "https://images.pexels.com/photos/4440526/pexels-photo-4440526.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "id": "7",
+      "name": "Floor Broom",
+      "price": 159,
+      "oldPrice": 199,
+      "category": "Cleaning",
+      "rating": 4.4,
+      "stock": 22,
+      "description": "Strong and lightweight broom for everyday floor cleaning.",
+      "image": "https://cdn0.woolworths.media/content/wowproductimages/large/178353_1.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Microfiber Mop",
+      "price": 349,
+      "oldPrice": 399,
+      "category": "Cleaning",
+      "rating": 4.7,
+      "stock": 15,
+      "description": "Microfiber mop designed for quick and efficient floor cleaning.",
+      "image": "https://i.ebayimg.com/images/g/OS0AAOSwgIFmsjnR/s-l1200.png"
+    },
+    {
+      "id": "9",
+      "name": "Dustpan",
+      "price": 99,
+      "oldPrice": 129,
+      "category": "Cleaning",
+      "rating": 4.1,
+      "stock": 40,
+      "description": "Compact dustpan for collecting dust and household waste.",
+      "image": "https://media.takealot.com/covers_images/06aa573256d44f6eb2251153e07c7dd3/s-zoom.file"
+    },
+    {
+      "id": "10",
+      "name": "Garbage Bags",
+      "price": 129,
+      "oldPrice": 149,
+      "category": "Home Essentials",
+      "rating": 4.3,
+      "stock": 45,
+      "description": "Strong garbage bags suitable for everyday household waste.",
+      "image": "https://img.drz.lazcdn.com/static/bd/p/92a327499a0b3c71edfb7c30b5afcf83.jpg_720x720q80.jpg_.webp"
+    },
+    {
+      "id": "11",
+      "name": "Hand Wash",
+      "price": 119,
+      "oldPrice": 149,
+      "category": "Personal Care",
+      "rating": 4.6,
+      "stock": 28,
+      "description": "Gentle hand wash that keeps hands clean and fresh.",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2024/2/394597724/JR/KL/EL/2734363/hand-wash-pump-bottles-1000x1000.png"
+    },
+    {
+      "id": "12",
+      "name": "Shampoo",
+      "price": 249,
+      "oldPrice": 299,
+      "category": "Personal Care",
+      "rating": 4.5,
+      "stock": 24,
+      "description": "Everyday shampoo for clean and healthy-looking hair.",
+      "image": "https://images.pexels.com/photos/14656326/pexels-photo-14656326.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "id": "13",
+      "name": "Bath Soap",
+      "price": 89,
+      "oldPrice": 110,
+      "category": "Personal Care",
+      "rating": 4.4,
+      "stock": 60,
+      "description": "Refreshing bath soap for everyday personal care.",
+      "image": "https://cdn.mafrservices.com/pim-content/KEN/media/product/13267/13267_main.jpg"
+    },
+    {
+      "id": "14",
+      "name": "Toothpaste",
+      "price": 110,
+      "oldPrice": 135,
+      "category": "Personal Care",
+      "rating": 4.6,
+      "stock": 38,
+      "description": "Daily toothpaste for fresh breath and clean teeth.",
+      "image": "https://atlas-content-cdn.pixelsquid.com/stock-images/toothpaste-generic-label-tube-container-yw4Bny5-600.jpg"
+    },
+    {
+      "id": "15",
+      "name": "Toothbrush",
+      "price": 69,
+      "oldPrice": 89,
+      "category": "Personal Care",
+      "rating": 4.2,
+      "stock": 55,
+      "description": "Soft-bristle toothbrush designed for comfortable daily brushing.",
+      "image": "https://images.pexels.com/photos/6189073/pexels-photo-6189073.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "id": "16",
+      "name": "Facial Tissues",
+      "price": 99,
+      "oldPrice": 129,
+      "category": "Home Essentials",
+      "rating": 4.3,
+      "stock": 32,
+      "description": "Soft facial tissues for everyday home and personal use.",
+      "image": "https://www.lionsdeal.com/itempics/2-Ply-White-Facial-Tissues--30-Boxes-Carton-41926_large.jpg"
+    },
+    {
+      "id": "17",
+      "name": "Paper Towels",
+      "price": 159,
+      "oldPrice": 189,
+      "category": "Home Essentials",
+      "rating": 4.5,
+      "stock": 26,
+      "description": "Absorbent paper towels for kitchen and household cleaning.",
+      "image": "https://i-spa.co.za/cdn/shop/products/kitchen_roll.jpg?v=1633098116&width=2000"
+    },
+    {
+      "id": "18",
+      "name": "Food Storage Container",
+      "price": 299,
+      "oldPrice": 349,
+      "category": "Kitchen",
+      "rating": 4.7,
+      "stock": 19,
+      "description": "Reusable storage container for keeping food fresh and organized.",
+      "image": "https://images.thdstatic.com/productImages/5da1d235-f6aa-4cdc-a890-d52f94c6c524/svn/gray-kitchen-details-food-storage-containers-15013-64_1000.jpg"
+    },
+    {
+      "id": "19",
+      "name": "Water Bottle",
+      "price": 199,
+      "oldPrice": 249,
+      "category": "Kitchen",
+      "rating": 4.4,
+      "stock": 27,
+      "description": "Reusable water bottle suitable for home, office and travel.",
+      "image": "https://images.pexels.com/photos/11860563/pexels-photo-11860563.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "id": "20",
+      "name": "Kitchen Storage Box",
+      "price": 249,
+      "oldPrice": 299,
+      "category": "Kitchen",
+      "rating": 4.6,
+      "stock": 21,
+      "description": "Convenient storage box for organizing kitchen essentials.",
+      "image": "https://cdn.salla.sa/GNQxE/baf6c7d3-a889-4ae7-bfa9-87a3422a54e8-1000x999.0234375-bdtz1M6xdzxuG9nU796TFZhoCZwjU19mtXyPUI13.jpg"
+    },
+    {
+      "id": "21",
+      "name": "Premium Basmati Rice",
+      "price": 499,
+      "oldPrice": 549,
+      "category": "Grocery",
+      "rating": 4.7,
+      "stock": 40,
+      "description": "Premium quality basmati rice with long grains and rich aroma.",
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=700&q=80"
+    }
+  ],
+  "users": [
+    {
+      "name": "saritha",
+      "email": "sarithagudur5@gmail.com",
+      "password": "Saritha@17",
+      "id": "MJ4p222pf2w",
+      "role": "user"
+    },
+    {
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "id": "admin1",
+      "role": "admin"
+    },
+    {
+      "name": "srinadh",
+      "email": "srinadh@gmail.com",
+      "password": "Sri@123",
+      "id": "goOPO3cTBMM",
+      "role": "user"
+    }
+  ],
+  "orders": [
+    {
+      "customer": {
+        "name": "Gudur Saritha",
+        "email": "sarithagudur5@gmail.com",
+        "phone": "7095961404",
+        "address": "12-34,main road",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "pincode": "500001"
+      },
+      "items": [
+        {
+          "id": "1",
+          "name": "Dishwashing Liquid",
+          "price": 149,
+          "oldPrice": 179,
+          "category": "Kitchen",
+          "rating": 4.5,
+          "stock": 25,
+          "description": "Powerful dishwashing liquid for removing grease and tough food stains.",
+          "image": "https://images.pexels.com/photos/28764304/pexels-photo-28764304.jpeg?auto=compress&cs=tinysrgb&w=700",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 149,
+      "deliveryCharge": 40,
+      "total": 189,
+      "status": "Shipped",
+      "orderDate": "2026-08-29T06:08:48.562Z",
+      "id": "wUUFNIDcvn8"
+    },
+    {
+      "customer": {
+        "name": "Rahul",
+        "email": "rahul@ganil.com",
+        "phone": "8978674567",
+        "address": "12-34,main road,vasanta nagar",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "pincode": "500001"
+      },
+      "items": [
+        {
+          "id": "18",
+          "name": "Food Storage Container",
+          "price": 299,
+          "oldPrice": 349,
+          "category": "Kitchen",
+          "rating": 4.7,
+          "stock": 19,
+          "description": "Reusable storage container for keeping food fresh and organized.",
+          "image": "https://images.thdstatic.com/productImages/5da1d235-f6aa-4cdc-a890-d52f94c6c524/svn/gray-kitchen-details-food-storage-containers-15013-64_1000.jpg",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 299,
+      "deliveryCharge": 40,
+      "total": 339,
+      "status": "Order Placed",
+      "orderDate": "2026-08-29T06:42:41.241Z",
+      "id": "SedLVNSxSZw"
+    },
+    {
+      "userId": "MJ4p222pf2w",
+      "customer": {
+        "name": "saritha",
+        "phone": "7095961404",
+        "address": "12-34,main road",
+        "city": "Hyderabad",
+        "pincode": "500001"
+      },
+      "items": [
+        {
+          "id": "2",
+          "name": "Laundry Detergent",
+          "price": 299,
+          "oldPrice": 349,
+          "category": "Laundry",
+          "rating": 4.6,
+          "stock": 30,
+          "description": "Fresh and effective detergent for clean and bright clothes.",
+          "image": "https://image.made-in-china.com/2f0j00jdotCDyIpJqK/Household-Cleaning-Products-Homemade-Liquid-Washing-Laundry-Detergent.jpg",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 299,
+      "status": "Pending",
+      "createdAt": "2026-08-31T17:18:13.978Z",
+      "id": "USzQQ-eQyP0"
+    },
+    {
+      "userId": "MJ4p222pf2w",
+      "customer": {
+        "name": "saritha",
+        "phone": "7095961404",
+        "address": "12-34,main road",
+        "city": "Hyderabad",
+        "pincode": "500001"
+      },
+      "items": [
+        {
+          "id": "4",
+          "name": "Toilet Cleaner",
+          "price": 129,
+          "oldPrice": 159,
+          "category": "Cleaning",
+          "rating": 4.3,
+          "stock": 35,
+          "description": "Powerful toilet cleaner that removes stains and germs.",
+          "image": "https://premium1.in/cdn/shop/products/toilet-cleaner-291024.jpg?v=1708314353&width=1100",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 129,
+      "status": "Pending",
+      "createdAt": "2026-08-31T17:28:44.496Z",
+      "id": "E_YBS6ZUyRA"
+    },
+    {
+      "userId": "MJ4p222pf2w",
+      "customer": {
+        "name": "saritha",
+        "phone": "7095961404",
+        "address": "12-34,main road",
+        "city": "Hyderabad",
+        "pincode": "500001"
+      },
+      "items": [
+        {
+          "id": "21",
+          "name": "Premium Basmati Rice",
+          "price": 499,
+          "oldPrice": 549,
+          "category": "Grocery",
+          "rating": 4.7,
+          "stock": 40,
+          "description": "Premium quality basmati rice with long grains and rich aroma.",
+          "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=700&q=80",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 499,
+      "status": "Pending",
+      "createdAt": "2026-08-31T17:58:34.079Z",
+      "id": "9G2eCXXkmiI"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

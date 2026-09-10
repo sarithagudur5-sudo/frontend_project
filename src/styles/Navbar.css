@@ -1,0 +1,485 @@
+/* =========================================
+   DAILY NEEDS - PREMIUM NAVBAR
+   ========================================= */
+
+.navbar {
+  width: 100%;
+  height: 78px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 32px;
+
+  background: rgba(255, 253, 247, 0.96);
+
+  border-bottom: 1px solid #e5eadf;
+
+  box-sizing: border-box;
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  backdrop-filter: blur(12px);
+}
+
+
+/* =========================================
+   LOGO
+   ========================================= */
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  color: #315f38;
+
+  font-size: 24px;
+  font-weight: 800;
+
+  cursor: pointer;
+  white-space: nowrap;
+
+  letter-spacing: -0.5px;
+
+  transition: all 0.25s ease;
+}
+
+.navbar-logo svg {
+  color: #315f38;
+
+  background: #eaf4e5;
+
+  padding: 6px;
+
+  width: 30px;
+  height: 30px;
+
+  border-radius: 10px;
+
+  box-sizing: border-box;
+
+  transition: all 0.25s ease;
+}
+
+.navbar-logo:hover {
+  color: #244d2d;
+  transform: translateY(-1px);
+}
+
+.navbar-logo:hover svg {
+  background: #dcebd7;
+  transform: rotate(-5deg);
+}
+
+
+/* =========================================
+   NAVIGATION
+   ========================================= */
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+
+  gap: 6px;
+}
+
+
+/* NORMAL BUTTONS */
+
+.navbar-links button {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 7px;
+
+  padding: 10px 13px;
+
+  border: none;
+
+  background: transparent;
+
+  color: #26352b;
+
+  font-size: 14px;
+  font-weight: 650;
+
+  cursor: pointer;
+
+  border-radius: 10px;
+
+  transition:
+    color 0.25s ease,
+    background 0.25s ease,
+    transform 0.25s ease;
+}
+
+
+/* HOVER */
+
+.navbar-links button:hover {
+  color: #315f38;
+
+  background: #edf5e9;
+
+  transform: translateY(-1px);
+}
+
+
+/* ICON */
+
+.navbar-links button svg {
+  transition: transform 0.25s ease;
+}
+
+.navbar-links button:hover svg {
+  transform: scale(1.08);
+}
+
+
+/* =========================================
+   ICON ONLY BUTTONS
+   ========================================= */
+
+.navbar-links .navbar-icon-button {
+  width: 42px;
+  height: 42px;
+
+  padding: 8px;
+
+  position: relative;
+
+  border-radius: 12px;
+}
+
+
+/* CART */
+
+.navbar-icon-button:hover {
+  color: #315f38;
+
+  background: #eaf4e5;
+}
+
+
+/* =========================================
+   WISHLIST
+   ========================================= */
+
+.navbar-links .wishlist-nav-button {
+  color: #37443a;
+}
+
+.navbar-links .wishlist-nav-button:hover {
+  color: #e05252;
+
+  background: #fff0ef;
+}
+
+
+/* Wishlist heart animation */
+
+.navbar-links .wishlist-nav-button:hover svg {
+  transform: scale(1.12);
+}
+
+
+/* =========================================
+   BADGES
+   ========================================= */
+
+.navbar-badge {
+  position: absolute;
+
+  top: -3px;
+  right: -3px;
+
+  min-width: 18px;
+  height: 18px;
+
+  padding: 0 4px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #315f38;
+
+  color: #ffffff;
+
+  font-size: 10px;
+  font-weight: 800;
+
+  box-sizing: border-box;
+
+  border: 2px solid #fffdf7;
+}
+
+.wishlist-badge {
+  background: #e05252;
+}
+
+
+/* =========================================
+   LOGOUT
+   ========================================= */
+
+.navbar-links button:last-child {
+  margin-left: 4px;
+
+  padding: 9px 13px;
+
+  border: 1px solid #b9c7ba;
+
+  border-radius: 10px;
+
+  background: #ffffff;
+
+  color: #344238;
+
+  font-weight: 600;
+
+  transition: all 0.25s ease;
+}
+
+.navbar-links button:last-child:hover {
+  color: #c94b4b;
+
+  background: #fff5f4;
+
+  border-color: #e19a9a;
+
+  transform: translateY(-1px);
+}
+
+
+/* =========================================
+   SEARCH BOX
+   ========================================= */
+
+.navbar-search-box {
+  display: flex;
+  align-items: center;
+
+  gap: 3px;
+
+  min-height: 42px;
+
+  background: #ffffff;
+
+  border: 1px solid #b9cdb9;
+
+  border-radius: 12px;
+
+  padding: 3px 5px;
+
+  box-shadow:
+    0 5px 18px rgba(45, 75, 49, 0.08);
+
+  animation: searchOpen 0.2s ease;
+}
+
+@keyframes searchOpen {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.navbar-search-box input {
+  width: 155px;
+
+  border: none;
+  outline: none;
+
+  padding: 8px 9px;
+
+  font-size: 14px;
+
+  color: #26352b;
+
+  background: transparent;
+}
+
+.navbar-search-box input::placeholder {
+  color: #98a19a;
+}
+
+
+/* SEARCH BUTTON */
+
+.navbar-search-submit,
+.navbar-search-close {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 34px;
+  height: 34px;
+
+  border: none;
+
+  background: transparent;
+
+  cursor: pointer;
+
+  border-radius: 8px;
+
+  padding: 6px;
+
+  transition: all 0.2s ease;
+}
+
+.navbar-search-submit {
+  color: #315f38;
+}
+
+.navbar-search-submit:hover {
+  color: #ffffff;
+
+  background: #315f38;
+
+  transform: none !important;
+}
+
+.navbar-search-close {
+  color: #7b847d;
+}
+
+.navbar-search-close:hover {
+  color: #d94d4d;
+
+  background: #fff0ef;
+
+  transform: none !important;
+}
+
+
+/* =========================================
+   SMALL SEPARATOR
+   ========================================= */
+
+.navbar-icon-button:first-of-type {
+  margin-left: 2px;
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 1000px) {
+
+  .navbar {
+    padding: 0 18px;
+  }
+
+  .navbar-links {
+    gap: 3px;
+  }
+
+  .navbar-links button {
+    padding: 9px;
+  }
+
+  .navbar-logo span {
+    display: none;
+  }
+}
+
+
+@media (max-width: 700px) {
+
+  .navbar {
+    height: 70px;
+
+    padding: 0 12px;
+  }
+
+  .navbar-links {
+    gap: 2px;
+  }
+
+  .navbar-links button span {
+    display: none;
+  }
+
+  .navbar-links button {
+    width: 38px;
+    height: 38px;
+
+    padding: 7px;
+  }
+
+  .navbar-links .navbar-icon-button {
+    width: 38px;
+    height: 38px;
+  }
+
+  .navbar-logo {
+    font-size: 20px;
+  }
+
+  .navbar-logo svg {
+    width: 28px;
+    height: 28px;
+  }
+
+  .navbar-search-box {
+    position: absolute;
+
+    left: 12px;
+    right: 12px;
+
+    top: 70px;
+
+    justify-content: space-between;
+  }
+
+  .navbar-search-box input {
+    flex: 1;
+
+    width: auto;
+  }
+}
+
+
+/* =========================================
+   VERY SMALL MOBILE
+   ========================================= */
+
+@media (max-width: 450px) {
+
+  .navbar {
+    padding: 0 8px;
+  }
+
+  .navbar-links button {
+    width: 34px;
+    height: 34px;
+  }
+
+  .navbar-links .navbar-icon-button {
+    width: 34px;
+    height: 34px;
+  }
+
+  .navbar-badge {
+    top: -5px;
+    right: -5px;
+  }
+}

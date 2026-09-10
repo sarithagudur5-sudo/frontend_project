@@ -1,0 +1,294 @@
+.admin-products-page {
+  min-height: calc(100vh - 60px);
+  background: #f5f7fb;
+  padding: 45px 4%;
+}
+
+.admin-products-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* HEADER */
+
+.admin-products-header {
+  margin-bottom: 28px;
+}
+
+.admin-products-header h1 {
+  margin: 0;
+  color: #172033;
+  font-size: 36px;
+}
+
+.admin-products-header p {
+  margin-top: 7px;
+  color: #6b7280;
+  font-size: 15px;
+}
+
+/* ADD PRODUCT CARD */
+
+.add-product-card {
+  background: white;
+  border: 1px solid #e1e6ed;
+  border-radius: 14px;
+  padding: 26px;
+  margin-bottom: 30px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.04);
+}
+
+.add-product-card h2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  margin: 0 0 20px;
+
+  color: #172033;
+  font-size: 22px;
+}
+
+/* FORM */
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.form-grid input {
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 13px 14px;
+
+  border: 1px solid #d9e0e8;
+  border-radius: 8px;
+
+  outline: none;
+
+  font-size: 14px;
+  color: #172033;
+
+  background: white;
+}
+
+.form-grid input:focus {
+  border-color: #1769c2;
+  box-shadow: 0 0 0 3px rgba(23, 105, 194, 0.1);
+}
+
+.form-grid input::placeholder {
+  color: #9aa3b2;
+}
+
+/* FORM BUTTONS */
+
+.product-form-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.add-product-btn,
+.cancel-edit-btn {
+  border: none;
+  border-radius: 8px;
+
+  padding: 11px 18px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.add-product-btn {
+  background: #1769c2;
+  color: white;
+}
+
+.add-product-btn:hover {
+  background: #125aa7;
+}
+
+.cancel-edit-btn {
+  background: #eef1f5;
+  color: #374151;
+}
+
+.cancel-edit-btn:hover {
+  background: #e1e5eb;
+}
+
+/* ALL PRODUCTS */
+
+.manage-products {
+  background: white;
+
+  border: 1px solid #e1e6ed;
+  border-radius: 14px;
+
+  padding: 10px 20px;
+
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.04);
+}
+
+.manage-products > h2 {
+  margin: 10px 0 15px;
+
+  color: #172033;
+  font-size: 25px;
+}
+
+/* PRODUCT ITEM */
+
+.admin-product-list {
+  width: 100%;
+}
+
+.admin-product-item {
+  min-height: 80px;
+
+  display: grid;
+  grid-template-columns: 75px 1fr auto;
+
+  align-items: center;
+
+  gap: 18px;
+
+  padding: 15px 5px;
+
+  border-top: 1px solid #edf0f4;
+}
+
+.admin-product-item img {
+  width: 70px;
+  height: 70px;
+
+  object-fit: contain;
+
+  border-radius: 10px;
+
+  background: #f5f7fa;
+}
+
+.admin-product-info h3 {
+  margin: 0 0 5px;
+
+  color: #172033;
+  font-size: 16px;
+}
+
+.admin-product-info p {
+  margin: 0 0 5px;
+
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.admin-product-info strong {
+  color: #1769c2;
+  font-size: 16px;
+}
+
+/* ACTION BUTTONS */
+
+.admin-product-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.edit-product-btn,
+.delete-product-btn {
+  border: none;
+
+  padding: 9px 13px;
+
+  border-radius: 7px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.edit-product-btn {
+  background: #eaf3ff;
+  color: #1769c2;
+}
+
+.edit-product-btn:hover {
+  background: #dcecff;
+}
+
+.delete-product-btn {
+  background: #ed3346;
+  color: white;
+}
+
+.delete-product-btn:hover {
+  background: #d92739;
+}
+
+/* EMPTY */
+
+.no-products {
+  padding: 35px 10px;
+
+  text-align: center;
+
+  color: #6b7280;
+  font-size: 15px;
+}
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+
+  .admin-products-page {
+    padding: 30px 15px;
+  }
+
+  .admin-products-header h1 {
+    font-size: 30px;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-product-item {
+    grid-template-columns: 60px 1fr;
+  }
+
+  .admin-product-item img {
+    width: 55px;
+    height: 55px;
+  }
+
+  .admin-product-actions {
+    grid-column: 2;
+  }
+
+  .product-form-buttons {
+    flex-direction: column;
+  }
+
+  .add-product-btn,
+  .cancel-edit-btn {
+    width: 100%;
+  }
+}
