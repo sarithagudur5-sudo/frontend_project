@@ -36,7 +36,7 @@ export const loginUser = createAsyncThunk(
       );
 
       return user;
-    } catch (error) {
+    } catch (_error) {
       return rejectWithValue(
         "Server error. Please start json-server."
       );

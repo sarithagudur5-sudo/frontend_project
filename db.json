@@ -22,17 +22,17 @@
       "description": "Fresh and effective detergent for clean and bright clothes.",
       "image": "https://image.made-in-china.com/2f0j00jdotCDyIpJqK/Household-Cleaning-Products-Homemade-Liquid-Washing-Laundry-Detergent.jpg"
     },
-  {
-  "id": "3",
-  "name": "Floor Cleaner",
-  "price": 199,
-  "oldPrice": 239,
-  "category": "Cleaning",
-  "rating": 4.4,
-  "stock": 20,
-  "description": "Deep cleaning floor liquid with a refreshing fragrance.",
-  "image":"https://rokbucket.rokomari.io/ProductNew20190903/260X372/Lizol_Floor_Cleaner_500ml_Jasmine_BD0850-Lizol-1e7e3-328494.jpg"
-},
+    {
+      "id": "3",
+      "name": "Floor Cleaner",
+      "price": 199,
+      "oldPrice": 239,
+      "category": "Cleaning",
+      "rating": 4.4,
+      "stock": 20,
+      "description": "Deep cleaning floor liquid with a refreshing fragrance.",
+      "image": "https://rokbucket.rokomari.io/ProductNew20190903/260X372/Lizol_Floor_Cleaner_500ml_Jasmine_BD0850-Lizol-1e7e3-328494.jpg"
+    },
     {
       "id": "4",
       "name": "Toilet Cleaner",
@@ -401,6 +401,62 @@
       "status": "Pending",
       "createdAt": "2026-08-31T17:58:34.079Z",
       "id": "9G2eCXXkmiI"
+    },
+    {
+      "userId": "MJ4p222pf2w",
+      "customer": {
+        "name": "saritha",
+        "phone": "07095961404",
+        "address": "12-34,main road",
+        "city": "Hyderabad",
+        "pincode": "500001"
+      },
+      "items": [
+        {
+          "id": "1",
+          "name": "Dishwashing Liquid",
+          "price": 149,
+          "oldPrice": 179,
+          "category": "Kitchen",
+          "rating": 4.5,
+          "stock": 25,
+          "description": "Powerful dishwashing liquid for removing grease and tough food stains.",
+          "image": "https://images.pexels.com/photos/28764304/pexels-photo-28764304.jpeg?auto=compress&cs=tinysrgb&w=700",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 149,
+      "status": "Pending",
+      "createdAt": "2026-10-08T12:05:34.518Z",
+      "id": "Whq_aMiSVVw"
+    },
+    {
+      "userId": "MJ4p222pf2w",
+      "customer": {
+        "name": "saritha",
+        "phone": "07095961404",
+        "address": "12-34,main road",
+        "city": "Hyderabad",
+        "pincode": "500001"
+      },
+      "items": [
+        {
+          "id": "2",
+          "name": "Laundry Detergent",
+          "price": 299,
+          "oldPrice": 349,
+          "category": "Laundry",
+          "rating": 4.6,
+          "stock": 30,
+          "description": "Fresh and effective detergent for clean and bright clothes.",
+          "image": "https://image.made-in-china.com/2f0j00jdotCDyIpJqK/Household-Cleaning-Products-Homemade-Liquid-Washing-Laundry-Detergent.jpg",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": 299,
+      "status": "Pending",
+      "createdAt": "2026-10-08T13:04:14.489Z",
+      "id": "-KDjUBvGzFc"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
